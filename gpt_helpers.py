@@ -115,7 +115,7 @@ class LetterStringAnalogySolver:
             )
             if formatted_input_data[3]:
                 prompt += "\n"
-        return prompt[0:-3].rstrip()
+        return prompt.rstrip()
 
 
 if __name__ == "__main__":
